@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šibenice</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts Link pro import fontu Inter -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Šibenice</h1>
+        <div id="options"></div>
+        <div class="image">
+            <img id="hangman-image" src="images/0.png" alt="Šibenice">
+        </div>
+        <div id="word"></div>
+        <div id="letters"></div>
+        <div id="game-result" class="hide">
+            <p id="game-message"></p>
+            <button id="restart-button" onclick="resetGame()" class="hide">Restartovat</button>
+        </div>        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
